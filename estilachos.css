@@ -1,0 +1,235 @@
+
+body{
+	margin:0;
+  	padding:0;
+  	font-family: 'Josefin Sans', sans-serif;
+}
+h2, h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	font-family: 'Josefin Sans', sans-serif;
+}
+header p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+}
+header {
+	/*background: #2196f3;*/
+	font-family: 'Anton', sans-serif;
+	background-image: url(assets/cover_3.jpg);
+	background-size: cover;
+}
+.icono{
+	font-size: 55px;
+}
+.header-text{
+	padding: 100px;
+}
+.header-text h1{
+	font-size: 38px;
+}
+.contenedor{
+	/*margin: 0 auto;*/
+	width: 50%;
+	background: rgba(0,0,0,0.36);
+	padding: 5%;
+	color: white;
+}
+.contenedor p{
+	color: white;
+}
+.como-funciona{
+	/*background: #0069c0;*/
+	color: black;
+	/*color: #cfd8dc;*/
+}
+.como-funciona div{
+	text-align: center;
+}
+.como-funciona div h2{
+	color: black;
+	padding-top: 30px;
+	font-size: 40px;
+}
+.como-funciona p{
+	padding-bottom: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+
+}
+.como-funciona li{
+	padding-right: 30px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+.tu-patrimonio{
+background: rgba(224,184,132,0);
+background: -moz-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,184,132,0)), color-stop(76%, rgba(227,149,32,0.76)), color-stop(100%, rgba(227,149,32,1)));
+background: -webkit-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -o-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: linear-gradient(to bottom, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 25%, rgba(227,149,32,1) 50%, rgba(227,149,32,0.85) 65%, rgba(227,149,32,0.80) 75%, rgba(227,149,32,0.76) 85%, rgba(224,184,132,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b884', endColorstr='#e39520', GradientType=0 );
+
+
+	text-align: center;	
+	padding-top: 10px;
+}
+.tu-patrimonio h2{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.tu-patrimonio .desarrollo .titulo-desarrollo{
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.tu-patrimonio .desarrollo .fotos-agaves{
+	display: inline-block;
+	height: 350px;
+	width: 100%;
+	position: relative;
+}
+.tu-patrimonio .desarrollo figure img{
+	width: 180px;
+	
+}
+.tu-patrimonio .desarrollo .fotos-agaves div{
+	position: absolute;
+	padding-bottom: 10px;
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-centro{
+	margin: 0 auto;
+	display: block;
+	z-index: 2;
+	left: 30%;
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-centro img{
+	width: 500px;
+	border: solid 2px black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-izquierda{
+	z-index: 1;
+	left: 4.9%;
+	/*width: calc(100% - 360px);*/
+	top: 32%;
+
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-izquierda img{
+	width: 300px;
+	border: solid 2px black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-derecha{
+	z-index: 2;
+	display: block;
+	/*width: calc(100% - 200px);*/
+	top: 10%;
+	left: 70%;
+	/*transform: translate3d(0px, -184.429px, 0px);*/
+}
+.tu-patrimonio .desarrollo .fotos-agaves .imagen-derecha img{
+	width: 300px;
+	border: solid 2px black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.tu-patrimonio .desarrollo .features{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 5%;
+	font-size: 20px;
+	text-align: center;
+}
+.tu-patrimonio .desarrollo .features span{
+	font-size: 35px;
+	color: black;
+}
+.tu-patrimonio .desarrollo .features p{
+	font-size: 40px;
+	color: black;
+	margin-bottom: 20px;
+}
+.tu-patrimonio .desarrollo .features .precio{
+	font-size: 50px;
+	color: #004883;
+}
+.tu-patrimonio .desarrollo .features li:first-child {
+	padding-left:20px;
+	display: inline-block;
+	border-left: solid 1px black;
+	color: white;
+}
+.tu-patrimonio .desarrollo .features li{
+	/*padding-left:60px;*/
+	/*margin: 0 10px 0 10px;*/
+	display: inline-block;
+	border-right: solid 1px black;	
+	padding: 10px;	
+	color: white;
+}
+
+.villas-cover{
+background: rgba(35,186,176,0.23);
+background: -moz-linear-gradient(top, rgba(35,186,176,0.23) 0%, rgba(86,189,181,0.26) 3%, rgba(86,189,181,0.74) 47%, rgba(86,189,181,0.74) 57%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(35,186,176,0.23)), color-stop(3%, rgba(86,189,181,0.26)), color-stop(47%, rgba(86,189,181,0.74)), color-stop(57%, rgba(86,189,181,0.74)));
+background: -webkit-linear-gradient(top, rgba(35,186,176,0.23) 0%, rgba(86,189,181,0.26) 3%, rgba(86,189,181,0.74) 47%, rgba(86,189,181,0.74) 57%);
+background: -o-linear-gradient(top, rgba(35,186,176,0.23) 0%, rgba(86,189,181,0.26) 3%, rgba(86,189,181,0.74) 47%, rgba(86,189,181,0.74) 57%);
+background: -ms-linear-gradient(top, rgba(35,186,176,0.23) 0%, rgba(86,189,181,0.26) 3%, rgba(86,189,181,0.74) 47%, rgba(86,189,181,0.74) 57%);
+
+background: rgba(35,186,176,0);
+background: -moz-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,184,132,0)), color-stop(76%, rgba(227,149,32,0.76)), color-stop(100%, rgba(227,149,32,1)));
+background: -webkit-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -o-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,184,132,0) 0%, rgba(227,149,32,0.76) 76%, rgba(227,149,32,1) 100%);
+background: linear-gradient(to bottom, rgba(35,186,176,0) 0%, rgba(35,186,176,0.76) 25%, rgba(35,186,176,1) 50%,rgba(35,186,176,0.76) 75%, rgba(35,186,176,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b884', endColorstr='#e39520', GradientType=0 );
+
+}
+.tu-patrimonio .desarrollo .boton{
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.tu-patrimonio .desarrollo .boton a{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 30px;
+	text-decoration: none;
+	width: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 22px 20px;
+	background: #f30d49;
+	border: 1px solid #f30d49;
+	color: white;
+	outline: none;
+	min-width: 252px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
